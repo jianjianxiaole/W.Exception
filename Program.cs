@@ -2,6 +2,8 @@
 
 namespace ConsoleApplication
 {
+    ///use cases for exception
+    
     public class Program
     {
         public static void Main(string[] args)
@@ -20,7 +22,7 @@ namespace ConsoleApplication
         public static void TestThrowWithMessage(string message)
         {
             //throw new InitializateException(message);
-            throw new ImagerException(message);
+            throw new MotionMovedException(message);
         }
 
         public static void TestThrow()
